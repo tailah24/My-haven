@@ -1,0 +1,10 @@
+.covidBanner {
+    background-color: black;
+}
+
+.covidBanner_link {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}

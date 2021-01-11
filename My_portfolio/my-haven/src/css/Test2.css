@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-.header {
+.test2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,16 +16,17 @@
     top: 0;
     z-index: 100;
     width: 100%;
+    background-color: #f5f4f4;
 }
 
-.header_icon {
+.test_icon {
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
     
 }
 
-.header_center {
+.test_center {
     display: flex;
     align-items: center;
     flex: 1;
@@ -36,25 +37,23 @@
     border-radius: 999px;
 }
 
-.header_center > input {
+.test_center > input {
     border: none;
     width: 250px;
     outline-width: 0;
     padding: 10px;
     background-color: transparent;
-    color: white;
 }
 
-.header_right {
+.test_right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 15vw;
     margin-right: 80px;
-    color: white;
 }
 
-.searchIcon_div {
+.searchIconTest_div {
     border-radius: 50% !important;
     padding: 5px;
     background-color: #FF385C;
@@ -62,7 +61,7 @@
     align-items: center;
 }
 
-.search_icon {
+.searchTest_icon {
     font-size: 15px !important;
     padding: 3px !important;
     
