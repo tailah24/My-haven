@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import '../css/Banner.css'
-import Header from '../components/Header'
-import CovidBanner from '../components/CovidBanner'
-import Test2 from '../components/Test2'
+import Header from './Header'
+import CovidBanner from './CovidBanner'
+import Test2 from './Navbar2'
 import { Button } from '@material-ui/core'
 // import Search from '../components/Search'
 import { useHistory } from "react-router-dom"
@@ -32,7 +32,8 @@ function Banner() {
                 <Button onClick={() => setshowSearch(!showSearch)} className='banner_searchButton' variant='outlined'>{showSearch ? 'Hide' : 'Show Dates' } </Button>
             </div> */}
             <div className='banner_info'>
-                <h1>Get out and stretch your imagination</h1>
+                <h1><span className='green' >Your</span> Comfort, Our <span className='green' >Priority</span></h1>
+                <p>Welcome to My haven Search through our variety of exotic homes to find one that matches your style and preference</p>
                 {/* <h5>Plan a different kind of getaway to uncover the hidden gems near you.</h5> */}
                 <Button variant='outlined' onClick={() => history.push('/search')} >Explore Nearby</Button>
             </div>

@@ -12,16 +12,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
     width: 100%;
-    background-color: #f5f4f4;
+    height: 10vh;
+    background-color: #fff;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
 .test_icon {
     object-fit: contain;
-    height: 100px;
+    height: 130px;
     margin-left: 20px;
     
 }
@@ -56,7 +58,7 @@
 .searchIconTest_div {
     border-radius: 50% !important;
     padding: 5px;
-    background-color: #FF385C;
+    background-color: #09a709;
     color: white;
     align-items: center;
 }
@@ -66,3 +68,5 @@
     padding: 3px !important;
     
 }
+
+

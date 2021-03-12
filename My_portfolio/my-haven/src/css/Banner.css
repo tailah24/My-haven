@@ -7,7 +7,7 @@
     background-color: white !important;
     font-weight: 900 !important;
     text-transform: inherent !important;
-    color: #ff7779 !important;
+    color: #00ff00 !important;
 }
 
 .banner_search {
@@ -20,11 +20,11 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 40px;
-    width: 300px;
+    width: 250px;
 }
 
 .banner_info > Button {
-    background-color: #ff7779;
+    background-color: #0abd0a;
     color: white;
     text-transform: inherit;
     margin-top: 20px;
@@ -33,9 +33,18 @@
 
 .banner_info > Button:hover {
     background-color: white;
-    color: #ff7779;
+    color: #00ff00;
 }
 
 .banner_info > h5 {
     margin-top: 10px;
+}
+
+.banner_info > p {
+    width: 400px;
+    padding-top: 20px;
+}
+
+.green{
+    color: #00ff00;
 }

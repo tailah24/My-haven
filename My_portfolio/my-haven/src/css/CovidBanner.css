@@ -3,8 +3,13 @@
 }
 
 .covidBanner_link {
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 30px;
     font-weight: 600;
 }
+
+.covidBanner_link:hover {
+    color: #DDDDDDCC;
+}
+

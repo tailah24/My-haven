@@ -1,8 +1,9 @@
 import React from 'react'
 import Home from './pages/Home'
+import './css/App.css'
 import Footer from './components/Footer'
 import SearchPage from './components/SearchPage'
-import Test2 from './components/Test2'
+import Test2 from './components/Navbar2'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 

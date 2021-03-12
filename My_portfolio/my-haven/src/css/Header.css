@@ -20,7 +20,7 @@
 
 .header_icon {
     object-fit: contain;
-    height: 100px;
+    height: 150px;
     margin-left: 20px;
     
 }
@@ -57,7 +57,7 @@
 .searchIcon_div {
     border-radius: 50% !important;
     padding: 5px;
-    background-color: #FF385C;
+    background-color: #09a709;
     color: white;
     align-items: center;
 }

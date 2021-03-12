@@ -1,18 +1,30 @@
-import React from 'react'
-import styled from 'styled-components'
-import { ReactComponent as Logo } from '../My haven Logo.svg';
+import React, { useState } from 'react'
+import Header from './Header'
+import Test2 from './Navbar2'
+import CovidBanner from './CovidBanner'
 
-const Nav = styled.nav`
-    height: 60px;
-    background: red;
-`
+function Test1() {
 
-const Navbar = () => {
+    const [ navbar, setNavbar ] = useState(false)
+
+    const changeBackground = () => {
+        if (window.scrollY >= 55) {
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
-        <Nav>
-            <Logo alt='logo' height='150px' />
-        </Nav>
+        <div>
+            < CovidBanner />
+            <div>
+            { navbar ? <Test2 /> : < Header /> }
+            </div>
+        </div>
     )
 }
 
-export default Navbar
+export default Test1

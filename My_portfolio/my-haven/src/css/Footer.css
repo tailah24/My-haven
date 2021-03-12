@@ -1,11 +1,30 @@
 .footer {
     border-top: 1px solid lightgray;
     padding: 20px;
-    background-color: #f7f7f7;
-    text-align: center;
+    background-color: #0abd0a;
+    color: white;
+    /* text-align: center; */
 }
 
 .footer > p {
     padding: 5px;
     font-size: 14px;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 50px;
+
+}
+
+.footer_items {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+.logo_icon {
+    padding-left: 170px;
 }

@@ -5,6 +5,7 @@ import LanguageIcon from '@material-ui/icons/Language'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import { Avatar } from '@material-ui/core'
 import { Link } from 'react-router-dom'
+import { ReactComponent as Logo } from '../My haven Logo.svg'
 
 
 
@@ -12,7 +13,7 @@ function Test2() {
     return (
         <div className='test2'>
             <Link to='/'>
-            <img className='test_icon' src='https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png' alt=''/>
+            <Logo alt='logo' className='test_icon' />
             </Link>
 
             <div className='test_center'>
@@ -29,6 +30,7 @@ function Test2() {
                 < Avatar />
 
             </div>
+            
             
         </div>
     )
